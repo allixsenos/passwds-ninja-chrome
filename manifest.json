@@ -1,0 +1,15 @@
+{
+   "browser_action": {
+      "default_icon": "passgen32x32.png",
+      "default_title": "Generate pronounceable passwords",
+      "popup": "popout.html"
+   },
+   "description": "Generates pronounceable random passwords, very secure yet easy to remember",
+   "icons": {
+      "128": "passgen32x32.png"
+   },
+   "name": "Pronounceable password generator",
+   "permissions": [ "http://generator.designeus.net/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}

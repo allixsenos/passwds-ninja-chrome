@@ -1,0 +1,23 @@
+a { color:#3586cb; font-size:13px; text-decoration:none; }
+a:hover { text-decoration:underline }
+a.more { background-color:#3586cb; border-radius:5px; border:1px solid #3284d0; color:#fff; display:block; margin:0 auto; padding:6px; width:130px; }
+a.more:hover { background-color:#036; border:1px solid #333; text-decoration:none; }
+a.more:active { background-color:#000; border:1px solid #000; }
+table { width: 100%; }
+#target { min-height:340px; text-align:center; overflow: hidden; }
+
+/* RESULTS */
+body { background-color:#eee; font-family:Arial,Helvetica Neue,Helvetica,sans-serif; font-size:14px; padding:10px 15px; text-align:center; width:200px; }
+h3 { margin:0; text-transform:uppercase; }
+em { font-size:12px; font-style:normal; }
+#passwords { margin: 10px 0; }
+#passwords li { border-radius:5px; color:#3586cb; font-size:15px; font-weight:bold; list-style:none; margin-left:-15px; padding:5px 8px; width:130px; cursor: pointer; }
+#passwords li:hover { background-color:#fff; }
+#passwords li:active { background-color:#ffffea; color:#000; text-decoration:none; }
+
+#results { padding: 0; margin: 0; }
+
+.loading { display: none; }
+#target .loading { display: block; padding-top: 75%; }
+
+#clip_buffer { opacity: 0; margin-bottom: -40px; }
